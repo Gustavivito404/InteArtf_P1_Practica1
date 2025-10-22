@@ -6,7 +6,7 @@ no se pueden modificar despues de crearlas pero si se pueden leer sus valores
 '''
 
 # tupla basica
-colores = ("rojo","verde","azul")
+colores = ("rojo","verde","azul","blanco")
 print(colores)
 
 # tupla con diferentes tipos de datos
@@ -22,9 +22,10 @@ print(type(una_sola))
 print(colores[0])
 print(colores[2])
 print(colores[-1])
+print(colores[-3])
 
 # slicing (cortes de la tupla)
-print(colores[0:2])
+print(colores[0:3])
 print(colores[1:])
 print(colores[:2])
 

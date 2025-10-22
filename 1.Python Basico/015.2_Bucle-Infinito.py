@@ -47,7 +47,7 @@ while True:
         case "5":
             del_amigo = input("Ingresa el nombre del amigo que quieres eliminar -> ")
             if del_amigo in amigos:
-                amigos.discard(del_amigo) # discard elimina un elemento de la lista y si no existe no da error
+                amigos.remove(del_amigo) # remove elimina un elemento de la lista y si no existe no da error
                 print(f"{del_amigo} ha sido eliminado de la lista de amigos")
             else:
                 print(f"{del_amigo} no se encuentra en la lista de amigos")
